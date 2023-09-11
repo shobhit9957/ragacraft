@@ -1,3 +1,4 @@
+from config import OPENAI_API_KEY
 from audiocraft.models import MusicGen
 import streamlit as st 
 import torch 
@@ -8,8 +9,7 @@ import base64
 import openai
 import time
 
-openai.api_key = "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"
-# OPENAI_API_KEY = "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"
+OPENAI_API_KEY = OPENAI_API_KEY
 st.set_page_config(page_icon= "notes", page_title= "AudioCraft")
 
 @st.cache_data
