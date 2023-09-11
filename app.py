@@ -8,7 +8,7 @@ import base64
 import openai
 import time
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 st.set_page_config(page_icon= "notes", page_title= "AudioCraft")
 
 @st.cache_data
